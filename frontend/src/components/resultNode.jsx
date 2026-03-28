@@ -7,7 +7,7 @@ const ResultNode = ({ data }) => {
       <strong>Result</strong>
       <div className="result-text">
         {data.response ? (
-          <span style={{color:"var(--text)"}} className="response-text">{data.response}</span>
+          <span className="response-text">{data.response}</span>
         ) : (
           <span className="placeholder">AI response will appear here...</span>
         )}
