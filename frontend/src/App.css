@@ -101,7 +101,7 @@ body {
   width: 240px;
   font-size: 14px;
   background: var(--card);       
-  color: var(--text); 
+  color: var(--text) !important; 
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
   overflow: hidden;
@@ -142,6 +142,10 @@ body {
   color: var(--text) !important; 
 }
 
+.result-text * {
+  color: var(--text) !important;
+}
+
 .result-text {
   color: var(--text) !important;
   background-color: var(--card);
@@ -163,12 +167,16 @@ body {
 
 .react-flow {
   cursor: default !important;
+   color: var(--text);
 }
 
 .react-flow__pane {
   cursor: default !important;
 }
 
+.react-flow__node {
+  color: var(--text) !important;
+}
 .history-panel {
   position: absolute;
   top: 70px;
