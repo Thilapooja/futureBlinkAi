@@ -100,6 +100,6 @@ This endpoint fetches stored data from the database and returns it in descending
 
 ##  Deployment 
 
-I have deployed the entire working application in Vercel
+I have deployed the entire working application in Vercel.
 Here is the link:
-
+https://futureblinkaitask-git-main-thila-pooja-k-projects.vercel.app/
