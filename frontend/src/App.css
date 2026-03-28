@@ -138,8 +138,8 @@ body {
   border-color: #3b82f6;
 }
 
-.result-text * {
-  color: var(--text) !important;  
+.response-text {
+  color: var(--text) !important; 
 }
 
 .result-text {
@@ -152,7 +152,9 @@ body {
   white-space: pre-wrap;
   font-size: 10px;
 }
-
+.result-text span {
+  color: var(--text) !important;
+}
 
 .placeholder {
   color: var(--text );

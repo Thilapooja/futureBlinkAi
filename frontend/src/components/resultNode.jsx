@@ -1,4 +1,4 @@
-import { Handle,Position } from "reactflow";
+import { Handle, Position } from "reactflow";
 import "../App.css";
 
 const ResultNode = ({ data }) => {
@@ -7,7 +7,7 @@ const ResultNode = ({ data }) => {
       <strong>Result</strong>
       <div className="result-text">
         {data.response ? (
-          data.response
+          <span className="response-text">{data.response}</span>
         ) : (
           <span className="placeholder">AI response will appear here...</span>
         )}
