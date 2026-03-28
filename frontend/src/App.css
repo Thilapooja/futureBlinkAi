@@ -144,7 +144,7 @@ body {
   padding-right: 5px;
   white-space: pre-wrap;
   font-size: 10px;
-  color: #333;
+  color: var(--text);
  
 }
 
