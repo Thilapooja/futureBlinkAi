@@ -145,6 +145,7 @@ body {
   white-space: pre-wrap;
   font-size: 10px;
   color: var(--text);
+  background-color: var(--card);
  
 }
 
